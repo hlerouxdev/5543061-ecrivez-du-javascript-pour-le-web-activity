@@ -13,6 +13,9 @@ function getRequest(url) {
         resolve(JSON.parse(request.response));
       }
     };
+
+
+    
     request.send();
   });
 }
